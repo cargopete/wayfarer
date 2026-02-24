@@ -6,6 +6,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Wayfarism',
   description: 'A complete philosophy of motion and bearing. The universe offers no directions. The Wayfarer brings their own.',
+  icons: {
+    icon: '/logo-small.png',
+  },
 };
 
 export default function RootLayout({

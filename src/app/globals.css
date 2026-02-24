@@ -14,14 +14,6 @@
   --font-sans: system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  @theme inline {
-    --color-background: #0a0a0a;
-    --color-foreground: #ededed;
-    --color-border: #2d2d2d;
-    --color-muted: #9ca3af;
-  }
-}
 
 body {
   background: var(--color-background);

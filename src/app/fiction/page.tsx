@@ -20,16 +20,10 @@ const characters = [
     summary: 'A bearing in ruins, still generating motion.',
   },
   {
-    slug: 'holden-ford',
-    name: 'Holden Ford',
+    slug: 'holden-ford-and-bill-tench',
+    name: 'Holden Ford & Bill Tench',
     show: 'Mindhunter',
-    summary: 'The cause without levity. What happens when one pillar consumes the rest.',
-  },
-  {
-    slug: 'bill-tench',
-    name: 'Bill Tench',
-    show: 'Mindhunter',
-    summary: 'All four pillars, under maximum pressure.',
+    summary: 'Two Wayfarers, two kinds of failure.',
   },
   {
     slug: 'jimmy-mcgill',

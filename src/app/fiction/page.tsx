@@ -1,43 +1,91 @@
 import Link from 'next/link';
 
-const characters = [
+const literaryWayfarers = [
+  {
+    slug: 'jerome-k-jerome',
+    name: 'Jerome, George & Harris',
+    source: 'Three Men in a Boat',
+    summary: 'The founding text of Wayfarist levity.',
+  },
+  {
+    slug: 'provincial-lady',
+    name: 'The Provincial Lady',
+    source: 'E.M. Delafield',
+    summary: 'Bearing maintained under chronic domestic entropy.',
+  },
+  {
+    slug: 'james-herriot',
+    name: 'James Herriot',
+    source: 'All Creatures Great and Small',
+    summary: 'The complete Wayfarer. All four pillars, across a whole life.',
+  },
+];
+
+const modernWayfarers = [
   {
     slug: 'juliette',
     name: 'Juliette',
-    show: 'Silo',
-    summary: 'The purest Wayfarer. Motion as vocation, truth as bearing.',
+    source: 'Silo',
+    summary: 'Motion as vocation, truth as bearing.',
   },
   {
     slug: 'mark',
     name: 'Mark',
-    show: 'Severance',
+    source: 'Severance',
     summary: 'Motion without Bearing. What severance actually severs.',
   },
   {
-    slug: 'harry-ambrose',
-    name: 'Harry Ambrose',
-    show: 'The Sinner',
-    summary: 'A bearing in ruins, still generating motion.',
+    slug: 'jeremy-clarkson',
+    name: 'Jeremy Clarkson',
+    source: "Clarkson's Farm",
+    summary: 'Wayfarism arrived uninvited — and was accepted anyway.',
   },
   {
-    slug: 'holden-ford-and-bill-tench',
-    name: 'Holden Ford & Bill Tench',
-    show: 'Mindhunter',
-    summary: 'Two Wayfarers, two kinds of failure.',
+    slug: 'ted-lasso',
+    name: 'Ted Lasso',
+    source: 'Ted Lasso',
+    summary: 'Bearing as a way of treating people.',
+  },
+  {
+    slug: 'detectorists',
+    name: 'Lance & Andy',
+    source: 'Detectorists',
+    summary: 'Wayfarism on a quiet Tuesday afternoon.',
+  },
+  {
+    slug: 'sam-gamgee',
+    name: 'Samwise Gamgee',
+    source: 'The Lord of the Rings',
+    summary: 'The purest Wayfarer in all of fiction.',
   },
   {
     slug: 'jimmy-mcgill',
     name: 'Jimmy McGill',
-    show: 'Better Call Saul',
+    source: 'Better Call Saul',
     summary: 'A Wayfarer who chose the wrong bearing.',
   },
-  {
-    slug: 'walter-white',
-    name: 'Walter White',
-    show: 'Breaking Bad',
-    summary: 'The anti-Wayfarer. Intensity mistaken for direction.',
-  },
 ];
+
+function CharacterCard({ character }: { character: { slug: string; name: string; source: string; summary: string } }) {
+  return (
+    <Link
+      href={`/fiction/${character.slug}`}
+      className="group block p-6 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-lantern)] transition-colors"
+    >
+      <div className="flex justify-between items-start mb-2">
+        <h3 className="text-xl font-medium group-hover:text-[var(--color-lantern)] transition-colors">
+          {character.name}
+        </h3>
+        <span className="text-sm nav-text text-[var(--color-muted)] text-right ml-4">
+          {character.source}
+        </span>
+      </div>
+      <p className="text-[var(--color-muted)] italic">
+        {character.summary}
+      </p>
+    </Link>
+  );
+}
 
 export default function FictionPage() {
   return (
@@ -46,35 +94,35 @@ export default function FictionPage() {
 
       <div className="prose max-w-3xl mx-auto mb-16">
         <p className="text-lg">
-          These characters were not written as Wayfarist illustrations. They arrived at the same
-          territory independently, through story rather than argument. That is why they are useful.
-          They show what the philosophy looks like when lived rather than theorised — imperfectly,
-          under pressure, in worlds that are often unjust and sometimes actively hostile.
+          Wayfarism did not emerge from a vacuum. It has a literary tradition — British, humane,
+          characterised by endurance held lightly — and a set of modern examples that arrived at
+          the same territory independently, through story rather than argument. Both are useful.
+          They show what the philosophy looks like when lived rather than theorised: imperfectly,
+          under pressure, sometimes triumphantly, sometimes as a warning.
         </p>
       </div>
 
-      {/* Character grid */}
-      <div className="grid md:grid-cols-2 gap-6 mb-16">
-        {characters.map((character) => (
-          <Link
-            key={character.slug}
-            href={`/fiction/${character.slug}`}
-            className="group block p-6 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-lantern)] transition-colors"
-          >
-            <div className="flex justify-between items-start mb-2">
-              <h2 className="text-xl font-medium group-hover:text-[var(--color-lantern)] transition-colors">
-                {character.name}
-              </h2>
-              <span className="text-sm nav-text text-[var(--color-muted)]">
-                {character.show}
-              </span>
-            </div>
-            <p className="text-[var(--color-muted)] italic">
-              {character.summary}
-            </p>
-          </Link>
-        ))}
-      </div>
+      {/* Literary Wayfarers */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-light mb-2">The Literary Wayfarers</h2>
+        <p className="text-[var(--color-muted)] mb-6 italic">The tradition that built the philosophy.</p>
+        <div className="grid md:grid-cols-2 gap-6">
+          {literaryWayfarers.map((character) => (
+            <CharacterCard key={character.slug} character={character} />
+          ))}
+        </div>
+      </section>
+
+      {/* Modern Wayfarers */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-light mb-2">The Modern Wayfarers</h2>
+        <p className="text-[var(--color-muted)] mb-6 italic">What it looks like now.</p>
+        <div className="grid md:grid-cols-2 gap-6">
+          {modernWayfarers.map((character) => (
+            <CharacterCard key={character.slug} character={character} />
+          ))}
+        </div>
+      </section>
 
       {/* Invitation */}
       <div className="text-center border-t border-[var(--color-border)] pt-12">

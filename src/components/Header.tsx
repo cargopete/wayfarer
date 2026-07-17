@@ -9,6 +9,7 @@ const navItems = [
   { href: '/philosophy', label: 'The Philosophy' },
   { href: '/fiction', label: 'The Wayfarer in Fiction' },
   { href: '/codex', label: 'The Codex' },
+  { href: '/blog', label: 'The Road Notes' },
   { href: '/quotes', label: 'Quotes' },
   { href: '/about', label: 'About' },
 ];

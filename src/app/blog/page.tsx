@@ -5,7 +5,7 @@ const posts = [
     slug: 'the-pen-does-not-expire',
     title: 'The Pen Does Not Expire',
     date: '17 July 2026',
-    subtitle: 'On the strange belief that the story of your life stops being yours to write. Authorship does not lapse like a licence. What actually expires is only the excuse for not picking up the pen.',
+    subtitle: "On the belief that your life was written by a deceived child, and all that remains is to live in it. Authorship does not expire; only the excuse for declining it does. You are not the draft's tenant. You are its editor.",
   },
   {
     slug: 'on-the-propped-door',

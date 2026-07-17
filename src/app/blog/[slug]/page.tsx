@@ -10,99 +10,123 @@ const posts: Record<string, {
   'the-pen-does-not-expire': {
     title: 'The Pen Does Not Expire',
     date: '17 July 2026',
-    subtitle: 'On the strange belief that the story of your life stops being yours to write. Authorship does not lapse like a licence. What actually expires is only the excuse for not picking up the pen.',
+    subtitle: "On the belief that your life was written by a deceived child, and all that remains is to live in it. Authorship does not expire; only the excuse for declining it does. You are not the draft's tenant. You are its editor.",
     content: (
       <>
         <p className="italic text-[var(--color-muted)]">
-          On the strange belief that the story of your life stops being yours to write.
+          On the belief that your life was written by a deceived child, and all that remains is to
+          live in it.
         </p>
         <p>
           There is an idea so common in popular culture that nobody bothers to defend it anymore. It
-          simply gets sung, and we simply nod along. The idea is this: there was a window &mdash;
-          youth, roughly &mdash; during which your life was authored by you, and that window has
-          closed. Whatever you are now is what you were issued. The pen has been taken away.
+          simply gets sung, and we simply nod along. It deserves to be stated in full, because stated
+          in full it is remarkable.
         </p>
         <p>
-          Three Days Grace put it as plainly as it can be put. The narrator looks back at a one-light
-          town, at a younger self trying to find a way out, and sighs that those were the good times,
-          when &ldquo;the story was still ours to write.&rdquo; <em>Still.</em> As in: no longer. As
-          in: somewhere between the one-light town and the present day, authorship lapsed like an
-          unrenewed licence, and the remaining chapters will be written by &mdash; whom, exactly? The
-          song does not say. Nobody ever says. That is the tell.
+          The idea is this. There was a window &mdash; youth &mdash; during which the story of your
+          life was written. Whatever got decided in that window is what you now inhabit: the town, the
+          trade, the person beside you, the shape of the whole thing. But here is the refinement that
+          makes the doctrine truly complete: even inside the window, you were not really the author.
+          You were too small for the dreams you carried, deceived about the world, running blind, and
+          alone. So the one draft you will ever produce was produced by a child writing under false
+          information &mdash; and the moment the ink dried, the pen was withdrawn. Everything after
+          that is administration. You live with what the deceived child decided, plus whatever fate
+          cares to append, and neither part is yours.
         </p>
         <p>
-          A Bulgarian song makes the mirror-image claim about the other end of life.{' '}
-          <em>&ldquo;Колко малки сме били за големите мечти&rdquo;</em> &mdash; how small we were for
-          the big dreams. The young dreamers, it goes on, were running away deceived, and it hurt, and
-          they were alone. So there it is, the full doctrine, assembled across two languages and one
-          power-chord progression: the young are too small for their dreams and are being lied to
-          about them, and the old have lost the pen entirely. Authorship, on this account, is a thing
-          you are always either too early or too late for. There is apparently a Tuesday afternoon,
-          somewhere around thirty, when you briefly hold the pen &mdash; and presumably spend it doing
-          the ironing.
+          Three Days Grace supplies the second half of the doctrine. The narrator looks back at a
+          one-light town and sighs about the good times, when &ldquo;the story was still ours to
+          write.&rdquo; <em>Still</em> &mdash; meaning no longer. A Bulgarian song supplies the first
+          half: <em>&ldquo;Колко малки сме били за големите мечти&rdquo;</em> &mdash; how small we were
+          for the big dreams &mdash; running away deceived, hurting, alone. Sing the two together and
+          the picture is airtight. When you held the pen, you could not see. Now that you can see, you
+          do not hold the pen. Sight and authorship are never permitted in the same room. At no age,
+          on this account, does a human being ever actually write their own life with their eyes open.
+        </p>
+        <p>
+          It is worth sitting with how strange that is. This is not melancholy. Melancholy mourns
+          something that existed. This doctrine denies that the thing ever existed at all &mdash; and
+          then mourns it anyway.
         </p>
         <h2 className="text-2xl font-light mt-10 mb-0">The alibi</h2>
         <p>
-          A serious philosophy must ask why an idea this strange is this popular. The answer is not
-          complicated. It is an alibi, and alibis are comfortable.
+          A serious philosophy must ask why an idea this bleak is this popular, this hummable, this
+          comfortable in the mouth. The answer is that it is not bleak at all. It is the most
+          comfortable idea on offer. It is a complete discharge of responsibility, issued in both
+          directions at once.
         </p>
         <p>
-          The Three Days Grace verse actually confesses this, which is why it is a better lyric than
-          its own thesis deserves: the comfort gained is the chaos lost. That is an honest ledger.
-          Chaos &mdash; the open road, the unwritten chapter &mdash; is frightening precisely because
-          it implicates you. If the story is still yours to write, then the dull chapter currently in
-          progress is also yours, and there is no one else to hand the manuscript to. Declaring
-          authorship expired converts every disappointment from a draft into a verdict. Verdicts
-          require nothing further of you. Drafts do.
+          Consider what the doctrine absolves. The choices of your youth? Not your fault &mdash; you
+          were small, deceived, and alone; a defrauded party signs nothing binding. The condition of
+          your present life? Not your fault &mdash; the pen was withdrawn; you are a tenant in a house
+          someone else built. The future? Not your fault &mdash; that department belongs to fate.
+          Past, present, and future, each with its own exemption, and not one square inch of the story
+          left with your name on the deed. The Three Days Grace verse even shows its working: the
+          comfort gained is the chaos lost. That is an honest ledger. Chaos &mdash; the open page
+          &mdash; is frightening precisely because it implicates you. A finished story implicates no
+          one. It only asks to be endured, and endurance can be sung about, which is more than can be
+          said for the ironing.
         </p>
         <p>
-          The doctrine of the deceived young is the same alibi worn backwards. If the big dreams were
-          a lie told to you, then abandoning them was not a choice &mdash; it was merely waking up.
-          But nobody lied to the young about the <em>size</em> of the dreams. The dreams were
-          correctly sized. The lie, where there was one, concerned delivery: the suggestion that a
-          dream is a parcel that arrives, rather than a wall that gets built one unglamorous course of
-          bricks at a time. The young are not too small for big dreams. They are too impatient for
-          slow ones, and so were we, and so is everyone. That is not deception. That is Tuesday.
+          This is resignation with better production values. Camus named it as one of the failed
+          responses to the Absurd: the passive acceptance, the folding of the hands, the waiting. The
+          songs have merely discovered that resignation scans nicely over four chords and can be
+          dressed as wisdom &mdash; the hard-won, rueful kind, the kind that buys the next round. But
+          it is not wisdom. It is a forged deed of transfer, signing the authorship of your life over
+          to a child who no longer exists and a fate that was never consulted.
         </p>
         <h2 className="text-2xl font-light mt-10 mb-0">What is actually true</h2>
         <p>
-          Wayfarism has no quarrel with the facts these songs are built on. Luck is real. Constraint
-          is real. The universe deals hands of wildly uneven quality and offers no complaints
-          procedure. A person with a mortgage, a bad back, and school pick-up at four o&rsquo;clock is
-          not writing on a blank page.
+          Wayfarism has no quarrel with the raw material. The young <em>are</em> partly blind &mdash;
+          everyone&rsquo;s first chapters are written on bad information; that is what first chapters
+          are. Luck <em>is</em> real. Constraint <em>is</em> real. The choices of your twenties{' '}
+          <em>do</em> sit in the room with you at forty, some of them heavy. All of this is granted,
+          and none of it adds up to the doctrine.
         </p>
         <p>
-          But no one has ever written on a blank page. A story with no constraints is not a story; it
-          is a daydream, and daydreams are the one genre nobody finishes. The constraints are not the
-          opposite of authorship. They are the medium of it &mdash; the resistance the work talks back
-          with. The Bearing is chosen, not given, and nothing in that sentence carries an age limit.
-          It is chosen at nineteen in a one-light town, and it is chosen at forty-five in a house full
-          of dogs, and it is chosen with full knowledge that the choice is somewhat arbitrary and the
-          road muddier than the map suggested. That knowledge is not the death of the choice. It is
-          its integrity.
+          Because the doctrine&rsquo;s load-bearing assumption &mdash; the one nobody sings out loud
+          &mdash; is that a life is written once and then lived in, like a house. It is not. A life is
+          revised. The Bearing is chosen, not given, and it is not chosen once at nineteen in a
+          ceremony that never recurs. It is chosen again, with corrections, every time the road proves
+          muddier than the map &mdash; which is always. Revision is not a lesser form of authorship.
+          Revision is what authorship mostly is. Ask anyone who writes: the first draft is the least
+          authored part of the book. It is the part written smallest, blindest, and most alone. The
+          authorship is in what you do with it after you can see.
         </p>
         <p>
-          What actually expires is not the pen. It is the excuse for not picking it up. The
-          nineteen-year-old has the excuse of not yet knowing the road. The rest of us know the road
-          perfectly well, which is precisely why the nostalgia chorus goes down so easily: it is the
-          only remaining way to put the pen down with dignity.
+          And this dissolves the double bind entirely. Yes &mdash; the child wrote blind. But you are
+          not the child&rsquo;s tenant. You are the child&rsquo;s editor, and the editor outranks the
+          draft. The deceived nineteen-year-old handed you an opening act full of overreach and bad
+          information, and that is not a sentence to be served. It is material. Meanwhile fate
+          contributes what fate contributes &mdash; the diagnosis, the collapse, the stroke of luck
+          &mdash; and that too is material, because what fate has never once supplied is the response.
+          The response is written fresh each morning, by whoever is holding the pen, and someone is
+          always holding the pen. Check your hand.
         </p>
-        <p>There is no such way. There is only putting it down.</p>
+        <p>
+          What actually expires is not authorship. It is the excuse for declining it. The young have
+          the excuse of blindness. We have no excuse at all &mdash; which is exactly why the doctrine
+          had to be invented, and why it had to be set to music. Some things can only be gotten past
+          the mind&rsquo;s defences in a chorus.
+        </p>
         <h2 className="text-2xl font-light mt-10 mb-0">The funny part</h2>
         <p>
-          And it is, of course, quite funny. Grown adults &mdash; people who chose the town they live
-          in, the person beside them, the work on their desk, the song on the radio &mdash; gather in
-          arenas to sing, in unison, by choice, that they no longer have choices. The band wrote a
-          song about the story no longer being theirs to write, then wrote it, recorded it, and toured
-          it. The gap between the thesis and the evidence has rarely been wider, or better lit.
+          And it is, of course, quite funny. The doctrine holds that no one has ever authored anything
+          with their eyes open &mdash; a claim authored, with eyes open, by professionals, then
+          revised in the studio, re-recorded, mastered, and performed nightly on a tour someone chose
+          to book, to arenas full of adults who chose to drive there, singing in unison that they
+          cannot choose anything. Every night the thesis is refuted by its own delivery mechanism, and
+          every night nobody notices, and the not-noticing is somehow the best part.
         </p>
         <p>
-          Notice the gap. Find it amusing. Then go home and write the next chapter, because it was
-          never anyone else&rsquo;s job.
+          Notice it. Find it genuinely amusing. Then go home, pull out the draft the blind child left
+          you, thank them for their service, and start marking it up. It was always going to be an
+          editing job. Nobody was lied to about that &mdash; nobody was told anything about it at all,
+          which is different, and fixable.
         </p>
         <p className="italic text-[var(--color-muted)]">The road continues. We go again tomorrow.</p>
         <blockquote className="pull-quote text-xl">
-          What actually expires is not the pen. It is the excuse for not picking it up.
+          You are not the draft&rsquo;s tenant. You are its editor, and the editor outranks the draft.
         </blockquote>
       </>
     ),

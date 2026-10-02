@@ -1,6 +1,17 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 
+export const metadata: Metadata = {
+  description: 'The philosophy at work on particular problems.',
+};
+
 const posts = [
+  {
+    slug: 'on-the-unbolted-ceiling',
+    title: 'On the Unbolted Ceiling',
+    date: '2 October 2026',
+    subtitle: 'A reply to Aldric Fynch. The silence is a bet, not a finding, and nothing on the floor depends on it. What this site accepts, what it leaves open, and why the door stays propped.',
+  },
   {
     slug: 'the-pen-does-not-expire',
     title: 'The Pen Does Not Expire',
@@ -11,19 +22,19 @@ const posts = [
     slug: 'on-the-propped-door',
     title: 'On the Propped Door',
     date: '16 June 2026',
-    subtitle: 'A guest Road Note, and a companion to the last. The open door is no use unwalked. Here is what holding it open looks like day to day: five minutes, a cheap notebook, and a great deal of honest tedium.',
+    subtitle: 'A Road Note in another voice, and a companion to the last. The open door is no use unwalked. Here is what holding it open looks like day to day: five minutes, a cheap notebook, and a great deal of honest tedium.',
   },
   {
     slug: 'on-the-unproven-silence',
     title: 'On the Unproven Silence',
     date: '16 June 2026',
-    subtitle: 'A guest Road Note. Wayfarism rests on a silent universe — but that silence was asserted, never proven. Here is how to prop the door honestly open without lying to yourself.',
+    subtitle: 'A Road Note in another voice. Wayfarism rests on a silent universe — but that silence was asserted, never proven. Here is how to prop the door honestly open without lying to yourself.',
   },
   {
     slug: 'on-other-maps',
     title: 'On Other Maps',
     date: '19 May 2026',
-    subtitle: "A traveller's notes on how different cultures carry weight, and what the Wayfarer can borrow.",
+    subtitle: "A traveller's notes on the tools different traditions have made for carrying weight, and what the Wayfarer can borrow.",
   },
   {
     slug: 'on-family',
@@ -35,7 +46,7 @@ const posts = [
     slug: 'concerning-alice',
     title: 'Concerning Alice',
     date: '8 May 2026',
-    subtitle: 'A commentary on one particular life built around the discovery model of the self — what Alice has genuinely noticed, and what the sensibility she has built from it quietly leaves out.',
+    subtitle: 'A commentary on a composite life built around the discovery model of the self — what Alice has genuinely noticed, and what the sensibility she has built from it quietly leaves out.',
   },
   {
     slug: 'on-the-self-underneath',

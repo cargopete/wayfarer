@@ -7,6 +7,78 @@ const posts: Record<string, {
   subtitle: string;
   content: React.ReactNode;
 }> = {
+  'on-the-unbolted-ceiling': {
+    title: 'On the Unbolted Ceiling',
+    date: '2 October 2026',
+    subtitle: 'A reply to Aldric Fynch. The silence is a bet, not a finding, and nothing on the floor depends on it. What this site accepts, what it leaves open, and why the door stays propped.',
+    content: (
+      <>
+        <p className="italic text-[var(--color-muted)]">
+          A reply to{' '}
+          <Link
+            href="/blog/on-the-unproven-silence"
+            className="text-[var(--color-lantern)] hover:underline not-italic"
+          >
+            On the Unproven Silence
+          </Link>
+          . Aldric Fynch is the voice this site uses for the case I cannot yet make in my own name.
+          He made it, and it then went unanswered for some months, which is no way to treat a guest,
+          even one you invented.
+        </p>
+        <p>
+          Fynch put his thumb on one brick: the silence of the universe, which the Codex stated as
+          a finding. He said it was a bet. He is right, and it should be said without hedging.
+          Nobody has shown the universe to be silent. Camus did not, and I did not. &ldquo;There is
+          nothing bigger&rdquo; is a claim about the whole of reality made from a small corner of
+          it. I stated it as a fact because it had been a fact to me for so long that I had stopped
+          noticing I was holding a ticket.
+        </p>
+        <p>
+          So the concession comes first. The silence is a bet, not a finding.
+        </p>
+        <p>
+          The second thing to say is that nothing depends on it. Wayfarism never needed the universe
+          to be empty. It needs something much smaller: that no directions have been{' '}
+          <em>received</em>. That is a report on the post, and no claim about the cosmos.
+          Whatever is or is not out there, nothing has arrived that tells me what to do on Tuesday,
+          and Tuesday arrives regardless. The dog is hungry under every metaphysics. The door is
+          broken whether or not the ceiling is. Fynch says as much himself: the practice is identical
+          down to the last Tuesday morning. A philosophy whose practice survives the loss of its
+          founding premise was not founded on that premise. It was founded on the Tuesday.
+        </p>
+        <p>
+          That leaves the question of what this site is. This path accepts only what can be shown,
+          and it governs this life: the floor, the bearing, the four pillars, the day. That is a
+          restriction on what I will assert here, and no ruling on what exists. There may be another
+          path for what cannot be shown, and Fynch walks it in these pages with a cheap notebook and
+          a great deal of honest tedium. I have not walked it. I will not pretend to findings I do
+          not have, in either direction, and &ldquo;the universe is silent&rdquo; turned out to be
+          one of them.
+        </p>
+        <p>
+          So the door is propped, and in these pages it is not walked through. Propped is an honest
+          position for a door. It commits me to not slamming it, and to not claiming to have been
+          through.
+        </p>
+        <p>
+          The amendments are made. The Philosophy now says the universe offers no answer that anyone
+          has been able to show. The Codex takes the Absurd as a working condition and no longer as
+          a verdict: whatever the universe may or may not be, it has handed us no directions, and we
+          build from that. The home page still says the universe offers no directions. That one
+          stands. It was always the accurate sentence.
+        </p>
+        <p>
+          It is mildly embarrassing to have a foundation corrected by a man who does not exist. But
+          the garage door either works or it does not, and this one now works better.
+        </p>
+        <blockquote className="pull-quote text-xl">
+          Wayfarism never needed the universe to be empty. It needs only that no directions have
+          arrived.
+        </blockquote>
+      </>
+    ),
+  },
+
   'the-pen-does-not-expire': {
     title: 'The Pen Does Not Expire',
     date: '17 July 2026',
@@ -36,8 +108,8 @@ const posts: Record<string, {
         <p>
           Three Days Grace supplies the second half of the doctrine. The narrator looks back at a
           one-light town and sighs about the good times, when &ldquo;the story was still ours to
-          write.&rdquo; <em>Still</em> &mdash; meaning no longer. A Bulgarian song supplies the first
-          half: <em>&ldquo;Колко малки сме били за големите мечти&rdquo;</em> &mdash; how small we were
+          write.&rdquo; <em>Still</em> &mdash; meaning no longer. Grafa (Графа), in <em>Заедно</em>,
+          supplies the first half: <em>&ldquo;Колко малки сме били за големите мечти&rdquo;</em> &mdash; how small we were
           for the big dreams &mdash; running away deceived, hurting, alone. Sing the two together and
           the picture is airtight. When you held the pen, you could not see. Now that you can see, you
           do not hold the pen. Sight and authorship are never permitted in the same room. At no age,
@@ -68,8 +140,8 @@ const posts: Record<string, {
           said for the ironing.
         </p>
         <p>
-          This is resignation with better production values. Camus named it as one of the failed
-          responses to the Absurd: the passive acceptance, the folding of the hands, the waiting. The
+          This is resignation with better production values. Camus had no patience for it:
+          the passive acceptance, the folding of the hands, the waiting. The
           songs have merely discovered that resignation scans nicely over four chords and can be
           dressed as wisdom &mdash; the hard-won, rueful kind, the kind that buys the next round. But
           it is not wisdom. It is a forged deed of transfer, signing the authorship of your life over
@@ -135,11 +207,13 @@ const posts: Record<string, {
   'on-the-propped-door': {
     title: 'On the Propped Door',
     date: '16 June 2026',
-    subtitle: 'A guest Road Note, and a companion to the last. The open door is no use unwalked. Here is what holding it open looks like day to day: five minutes, a cheap notebook, and a great deal of honest tedium.',
+    subtitle: 'A Road Note in another voice, and a companion to the last. The open door is no use unwalked. Here is what holding it open looks like day to day: five minutes, a cheap notebook, and a great deal of honest tedium.',
     content: (
       <>
         <p className="italic text-[var(--color-muted)]">
-          A guest Road Note, contributed by Aldric Fynch, and a companion to{' '}
+          Aldric Fynch is the voice this site uses for the other path &mdash; the one that deals in
+          what cannot be proven. He is not the author&rsquo;s opponent. He is the author arguing the
+          case he cannot yet make in his own name. This note is a companion to{' '}
           <Link
             href="/blog/on-the-unproven-silence"
             className="text-[var(--color-lantern)] hover:underline not-italic"
@@ -172,8 +246,8 @@ const posts: Record<string, {
           slumping invites sleep, and you have enough of that particular argument already. Then
           attend to one thing. The breath is traditional and convenient, since it follows you about
           and asks no subscription. Do not <em>do</em> anything to it. Watch it. Your mind will bolt
-          within seconds &mdash; the unpaid bill, the thing you said in 2019, the second child
-          inbound &mdash; and that bolting is not the failure of the practice. It is the practice.
+          within seconds &mdash; the unpaid bill, the thing you said in 2019, the thing you promised
+          by Friday &mdash; and that bolting is not the failure of the practice. It is the practice.
           You notice you have wandered; you bring the attention back; and that quiet act of
           returning is the entire repetition. It is a bicep curl for the faculty of attention. The
           wandering is not the enemy. The wandering is the gym equipment.
@@ -181,7 +255,13 @@ const posts: Record<string, {
         <p>
           What the old texts are pointing at here, stripped of the incense, is this: do it for a few
           weeks and you begin to notice that you are not the voice in your head. You are the thing
-          <em> watching</em> the voice. It sounds like a parlour trick. It is, in practice, the most
+          <em> watching</em> the voice. (The owner of this house holds that there is no one on the
+          balcony &mdash; see{' '}
+          <Link href="/blog/on-the-self-underneath" className="text-[var(--color-lantern)] hover:underline">
+            <em>On the Self Underneath</em>
+          </Link>
+          . I report only what the sitting seems to show. Keep the diary and judge for yourself.) It
+          sounds like a parlour trick. It is, in practice, the most
           quietly destabilising discovery available to a human being, and it is the front door of
           the whole tradition &mdash; destabilising, I should add quickly, in the way that finding
           an unused room in your own house is destabilising. Unsettling for an afternoon. After
@@ -280,13 +360,13 @@ const posts: Record<string, {
   'on-the-unproven-silence': {
     title: 'On the Unproven Silence',
     date: '16 June 2026',
-    subtitle: 'A guest Road Note. Wayfarism rests on a silent universe — but that silence was asserted, never proven. Here is how to prop the door honestly open without lying to yourself.',
+    subtitle: 'A Road Note in another voice. Wayfarism rests on a silent universe — but that silence was asserted, never proven. Here is how to prop the door honestly open without lying to yourself.',
     content: (
       <>
         <p className="italic text-[var(--color-muted)]">
-          A guest Road Note, contributed at the invitation of this site&rsquo;s author by Aldric
-          Fynch &mdash; a scholar of the Hermetic tradition, writing from a cottage in the Welsh
-          Marches, in the company of an indifferent lurcher and a great deal of tea.
+          Aldric Fynch is the voice this site uses for the other path &mdash; the one that deals in
+          what cannot be proven. He is not the author&rsquo;s opponent. He is the author arguing the
+          case he cannot yet make in his own name.
         </p>
         <p>
           I have been handed the keys to another man&rsquo;s house and asked to leave a note on the
@@ -372,7 +452,7 @@ const posts: Record<string, {
         </p>
         <p>
           One caution, and then I will stop leaning on your wall. You may well <em>want</em> there to
-          be something bigger &mdash; the road behind you, the children ahead, the sheer human
+          be something bigger &mdash; the road behind you, the people ahead, the sheer human
           weight of wishing the silence were not the last word. That wish is entirely legitimate and
           you need not be ashamed of it. But do not let the wanting become the evidence. That is the
           believer&rsquo;s version of the same dishonesty the absurdist is so proud of having
@@ -404,7 +484,7 @@ const posts: Record<string, {
   'on-other-maps': {
     title: 'On Other Maps',
     date: '19 May 2026',
-    subtitle: "A traveller's notes on how different cultures carry weight, and what the Wayfarer can borrow.",
+    subtitle: "A traveller's notes on the tools different traditions have made for carrying weight, and what the Wayfarer can borrow.",
     content: (
       <>
         <p>
@@ -412,204 +492,130 @@ const posts: Record<string, {
           the conditions of being alive? The customs, the food, the music, the politeness routines,
           the things one is permitted to say at a funeral — these are not arbitrary decorations. They
           are tools, refined over generations, for handling the specific weight of existence. Each
-          tradition has tested its tools against time. Some work better than others. None work
-          entirely. All are worth examining.
+          tradition has tested its tools against time. None work entirely. All are worth examining.
         </p>
         <p>
           The Wayfarist framework — Motion as the floor, Bearing as the orientation, Mastery and
           Transmission and Chosen Cause and Levity as the pillars that hold a life upright — is meant
           to be universal in its operation but not in its expression. The mechanism is the same
-          wherever a person stands. The vehicle for it varies enormously. What follows is a partial
-          tour of how different cultures have answered the same question, with attention to what they
-          get right and where, by Wayfarist lights, they fall short.
+          wherever a person stands. The vehicle for it varies enormously.
         </p>
         <p>
-          <strong>Britain.</strong> The British comic-stoic tradition is, on the whole, one of the
-          more functional human inventions for staying upright under load. Its key move is
-          understatement: the deliberate refusal to grant a situation the size it would prefer to
-          have. The appalling week is called a bit much. The disastrous river trip is reported as if
-          it were a mild inconvenience suffered by an otherwise dignified party. Jerome K. Jerome,
-          the Grossmiths, E.M. Delafield, James Herriot — the entire line of writers across a century
-          who refuse to let weight have its full theatrical scope. This is asceticism by other means.
-          It does not deny suffering. It refuses suffering the role it asked for. By Wayfarist lights,
-          Britain is unusually strong on Levity — perhaps strongest in the world — and reasonable on
-          Motion and Mastery. Where it can struggle is with Chosen Cause; the same modesty that
-          produces the dry remark can produce a kind of polite paralysis when the situation calls for
-          something larger.
+          What follows is a list of tools, not a survey of peoples. Nobody is their national
+          character, and every one of these tools is used well and badly by the people who grew up
+          with it.
         </p>
         <p>
-          <strong>France.</strong> France's response to suffering is articulate. Where the British
-          absorb and deflect, the French analyse, complain, and aestheticise. The grumble —
-          <em> râler</em>, <em>rouspéter</em> — is a social ritual, a form of community. Suffering is
-          to be named, examined, given the dignity of language. From Pascal's wager to Sartre's
-          nausea to Houellebecq's exhaustion, the French intellectual tradition has been remarkably
-          consistent in treating despair as something to think through rather than slip under. France
-          is strong on Mastery (everything is to be done with proper form) and Chosen Cause (politics
-          is treated as a vocation), but its relationship with Levity is sharper and more political
-          than the British version — wit weaponised rather than companionable. The French dry remark
-          cuts; the British dry remark consoles.
+          <strong>Understatement.</strong> The deliberate refusal to grant a situation the size it
+          would prefer to have. The appalling week is called a bit much. The disastrous river trip is
+          reported as if it were a mild inconvenience suffered by an otherwise dignified party. Jerome
+          K. Jerome, the Grossmiths, E.M. Delafield, James Herriot — a line of English writers across
+          a century who refuse to let weight have its full theatrical scope. Canadians do the same
+          with winter: complained about ritually, without expectation that anyone will fix it. This is
+          asceticism by other means. It does not deny suffering. It refuses suffering the role it
+          asked for. The risk is that the same modesty which produces the dry remark can produce a
+          polite paralysis when the situation calls for something larger.
         </p>
         <p>
-          <strong>Germany.</strong> Germany carries weight with seriousness. The Romantic inheritance,
-          the philosophical depth, the engineering of one's own life as something to be done properly
-          — these produce a culture enormously good at Mastery and Transmission and somewhat
-          constrained on Levity. There is a German comic tradition, just less exported: the Kabarett,
-          Karl Valentin, the Berlin-grey black humour. But these are coping mechanisms within a
-          broader posture of earnestness, not the foundational disposition the British or Greeks
-          operate from. <em>Weltschmerz</em> is a genuine German contribution to the vocabulary of
-          human suffering — the world-pain that comes from being conscious of the gap between how
-          things are and how they ought to be. Germany supplies the deepest tools for Mastery and the
-          most considered tools for Bearing, but the Levity gap is real.
+          <strong>The grumble.</strong> In French, <em>râler</em>, <em>rouspéter</em>. Where
+          understatement absorbs and deflects, the grumble names, examines and complains, and does
+          it in company. It is a social ritual: suffering given the dignity of language and then
+          shared across a table. What the Wayfarer can borrow is the permission. Complaint, done
+          well and done together, is a way of carrying a thing and not a failure to carry it.
         </p>
         <p>
-          <strong>Greece.</strong> The country that invented both tragedy and comedy as formal
-          categories has not lost its inheritance. The Greeks understand suffering at a foundational
-          level and have built, in response, one of the most sustaining forms of community in any
-          tradition: the <em>παρέα</em>, the small group of people you carry weight with.{' '}
-          <em>Kefi</em> — the spontaneous joy that arrives in music and dance and shared wine — is
-          not a denial of hardship but a specific answer to it. Cavafy and Seferis modernised an
-          ancient practice: name what is being lost, and continue. Greece is among the best-balanced
-          cultures in the framework: strong on Levity in the Mediterranean register, strong on
-          Transmission, strong on the community-of-two principle scaled up to small groups.
+          <strong><em>Παρέα</em> and <em>kefi</em>.</strong> The <em>παρέα</em> is the small group of
+          people you carry weight with. <em>Kefi</em> is the spontaneous joy that arrives in music
+          and dance and shared wine — a specific answer to hardship, and no denial of it. Cavafy and
+          Seferis modernised an ancient practice: name what is being lost, and continue. The tool
+          here is the standing company. Levity is easier to keep when it is kept by several people
+          at once.
         </p>
         <p>
-          <strong>The Balkans.</strong> The Balkan response to suffering is histrionic in expression
-          but fatalist at its core. The complaint is loud, the lament is public, but underneath sits
-          the dry recognition that nothing is to be done. <em>Такъв ни е късметът</em> — such is our
-          luck. The oral joke culture, especially the political joke under communism, is one of the
-          great underwritten comic traditions of the twentieth century: jokes sharper than anything
-          the official press was permitted to print, shared in kitchens, passed down. Bulgarian
-          writers like Aleko Konstantinov, Chudomir, Elin Pelin, and more recently Gospodinov inherit
-          a European-melancholic register that survived the forty-five-year flattening and is slowly
-          recovering its full voice. The Balkans have Levity, but in a louder key; the understatement
-          move is harder to deploy in a culture where the default volume is operatic.
+          <strong>The kitchen joke.</strong> The Balkan political joke and the Soviet{' '}
+          <em>anekdot</em>: jokes sharper than anything the official press was permitted to print,
+          shared in kitchens, passed down. They are among the great underwritten comic traditions of
+          the twentieth century. Underneath sits the dry recognition that nothing is to be done —{' '}
+          <em>Такъв ни е късметът</em>, such is our luck — and the joke is what is done anyway. Aleko
+          Konstantinov, Chudomir, Elin Pelin and more recently Gospodinov carry the same register
+          into print. What it teaches is that Levity does not need permission, or volume, or an
+          audience larger than the table.
         </p>
         <p>
-          <strong>The Arab world.</strong> To speak of a single Arab response is to flatten Levantine,
-          Maghrebi, Egyptian, and Gulf traditions that each carry weight differently. But across the
-          region there is a common thread: the dignified bearing of suffering through poetry, faith,
-          and the patience that <em>sabr</em> names. <em>Maktub</em> — it is written — is not
-          passivity but a frame: this is the world we have, and the proper response is endurance with
-          composure. Egyptian humour is famous within the Arab world for being the sharpest; Levantine
-          humour carries a particular wry political edge; Gulf traditions emphasise hospitality and
-          family as load-bearing structures. The Sufi line, especially through figures like Nasreddin,
-          supplies a comic-mystical Levity that punctures pomposity without losing reverence. The Arab
-          world is strong on Bearing — the orientation is supplied by faith and family and tradition
-          — and on Transmission in the deepest sense.
+          <strong><em>Sabr</em>.</strong> Patience, in Arabic, but patience with composure in it:
+          the dignified bearing of what cannot be changed. Its companion is <em>maktub</em> — it is
+          written — which is a frame and should not be mistaken for passivity: this is the world we
+          have, and the proper response is endurance with one&apos;s back straight. The Wayfarer
+          does not need the metaphysics to borrow the posture.
         </p>
         <p>
-          <strong>East Asia.</strong> What used to be called the Orient covers cultures with
-          profoundly different methods. Japan refines impermanence into an aesthetic:{' '}
-          <em>mono no aware</em>, the pathos of things, <em>wabi-sabi</em>, the beauty of weathered
-          imperfection. Suffering is not denied; it is held at the correct distance, and that distance
-          is itself an art. Korea carries <em>han</em> — the deep collective sorrow that is not
-          depression but a structural feature of consciousness, and against which the Korean comic and
-          dramatic traditions produce extraordinary intensity. China, which we will come to separately,
-          supplies endurance through composure. East Asia is enormously rich on Mastery — the
-          cultivation of skill as a way of life is essentially a regional specialty — and on
-          Transmission, but the Levity register tends to be constrained, formal, or coded.
+          <strong><em>Mono no aware</em>.</strong> The pathos of things: impermanence refined into
+          an aesthetic, alongside <em>wabi-sabi</em>, the beauty of weathered imperfection. Suffering
+          is held at the correct distance, and the distance is itself an art. This is Levity in a
+          register with no joke in it at all, which is worth knowing exists.
         </p>
         <p>
-          <strong>The United States.</strong> America's relationship with suffering is the most
-          performative on the list. The therapeutic vocabulary, the memoir industry, the language of
-          processing and healing and growth — these are American innovations of the late twentieth
-          century, exported globally. They are not entirely useless, but they are unusually loud. What
-          balances them is the American comic tradition, which is among the strongest in the world:
-          Mark Twain, the absurdist line through Vonnegut, the Jewish-American comic inheritance from
-          Brooks to Allen to Seinfeld to a hundred others, the gallows humour of Black American
-          culture refined through the blues and into stand-up. The US has strong tools for Chosen
-          Cause — every American has one — and unusually strong tools for Levity within certain
-          communities, but the dominant culture's relationship with quiet endurance is weak. Americans
-          tend to want suffering to mean something, which is not always available.
+          <strong><em>Han</em>.</strong> The Korean name for a deep, shared sorrow that is not
+          depression but something carried in common, across generations. Its use to the Wayfarer is
+          the reminder that a weight can be held collectively and given a name, and that a named
+          weight is a different thing from a private one.
         </p>
         <p>
-          <strong>Canada.</strong> Canada is more like Britain than the US, and quieter than either.
-          The Canadian temperament — shaped by weather, geography, and a deliberate self-definition
-          against the louder neighbour — produces an understated comic tradition (SCTV, Leacock,
-          Schitt's Creek) and a generally restrained relationship with hardship. Canadians complain
-          about winter the way the British complain about rain: ritually, without expectation that
-          anyone will fix it. Canada operates close to the British model, with slightly more sincerity
-          and slightly less wit. It is one of the more wayfarist cultures on the list, if quieter
-          about it than most.
+          <strong>The <em>ofrenda</em>.</strong> The Mexican practice of laying out a meal for the
+          dead: the altar, the calaveras, the public familiarity with those who have gone. It is the
+          willingness to dress death in flowers and sit down to eat with it. As a refusal to grant
+          suffering its full theatrical scope, it has few equals.
         </p>
         <p>
-          <strong>Latin America.</strong> Latin America carries weight through community, faith,
-          fiesta, and a particular kind of magical attention. The Mexican relationship with death —
-          the <em>ofrendas</em>, the calaveras, the public familiarity with the dead — is a major
-          contribution to global Levity practice: the willingness to dress death in flowers and have
-          a meal with it. <em>Saudade</em> in Brazil, <em>duende</em> across the Iberian-influenced
-          south, the deep Catholic-indigenous syncretism — all of these produce ways of holding sorrow
-          without being defeated by it. Magical realism is not a literary curiosity but the natural
-          product of a culture that has always allowed reality to be larger than the rational. Latin
-          America is strong on Transmission and on a communal Levity that has no real equivalent in
-          Northern Europe.
+          <strong><em>Saudade</em> and <em>duende</em>.</strong> <em>Saudade</em>, which Brazil
+          inherited from Portugal; <em>duende</em>, which Lorca named in Spain. One is the longing
+          for what is absent, held without bitterness. The other is the dark note that makes a song
+          true. Both are ways of holding sorrow without being defeated by it, and both insist that
+          the sorrow belongs in the music.
         </p>
         <p>
-          <strong>Africa.</strong> Africa is a continent, and any single statement is a flattening.
-          But several threads recur across many of its traditions: the oral storytelling line, the
-          trickster figure (Anansi, the hare, others), the communal response to suffering that{' '}
-          <em>ubuntu</em> gives a name to in the south, the persistent presence of music and dance
-          through and against hardship. These constitute one of the great cultural endowments for
-          bearing weight. African writers from Achebe to Soyinka to Adichie have documented how the
-          comic and the tragic interleave in daily life without either cancelling the other. Nigerian
-          Twitter humour is among the sharpest contemporary comic registers in the world. Africa
-          supplies some of the best-developed Transmission practices in any tradition, and a Levity
-          rooted in community that the more atomised Northern cultures have largely lost.
+          <strong><em>Ubuntu</em>.</strong> A person is a person through other people. It names a
+          communal response to suffering, kept alive through storytelling, music and dance carried
+          on through and against hardship. Achebe, Soyinka and Adichie have all documented how the
+          comic and the tragic interleave in daily life without either cancelling the other. For a
+          philosophy that makes Transmission a pillar, <em>ubuntu</em> is the plainest statement of
+          why.
         </p>
         <p>
-          <strong>Russia.</strong> Russia is where the framework starts to strain. Russian culture is
-          famously heavy: Dostoyevsky, Tolstoy, Chekhov, the long winter, the depth of feeling that
-          the Russian word <em>toska</em> names — a particular sourceless anguish no English word
-          quite covers. The Russian response to suffering is to honour it, to deepen it, to write it
-          into the great novels and bear it without complaint. Levity exists — Gogol, Kharms,
-          Bulgakov, the entire Soviet <em>anekdoty</em> tradition, which is one of the great oral
-          comic inheritances — but it sits underneath, as survival mechanism rather than foundational
-          posture. Russia is strong on Bearing in a particular sense; the orientation is supplied by
-          depth itself, by the conviction that suffering is meaningful. The wayfarist response to this
-          is not condemnation but recognition: sometimes the comic register is unavailable, and the
-          deeper register is what carries you. Russia is an instruction in how to walk when there is
-          no joke to be had.
+          <strong>The trickster.</strong> Anansi, the hare, Nasreddin on his donkey. The trickster
+          punctures pomposity without losing reverence, and usually loses his own dignity in the
+          process. He is Levity given a body and sent out to embarrass the powerful. Every tradition
+          that has one is telling its children that the solemn are not always right.
         </p>
         <p>
-          <strong>China.</strong> China supplies endurance. The Confucian inheritance — the priority
-          of harmony, hierarchy, dignified composure — combined with a recent century of catastrophic
-          disruption produces a culture whose relationship with suffering is profoundly stoical but
-          rarely light. Daoism supplies a lighter tradition; Zhuangzi has comic-philosophical passages
-          any wayfarist would recognise. But the dominant posture is composed endurance, and the comic
-          register tends to be verbal, regional, often political, often coded. Lu Xun's bitter satire
-          is closer to the foundational Chinese comic mode than Wodehouse is to the British. China is
-          strong on Transmission — the family-and-lineage tradition is essentially a Transmission
-          specialty — and on Mastery, but Levity is constrained, and Chosen Cause has historically
-          been supplied by the state or the family rather than the individual. Like Russia, China is
-          an instruction in the depth of what Bearing can do when Levity is unavailable.
+          <strong><em>Toska</em>.</strong> The Russian word for a sourceless anguish that no English
+          word quite covers. Dostoyevsky, Tolstoy and Chekhov wrote it into the great novels. The
+          tool is the word itself: to have a name for the thing is to be able to say it is here
+          today, and to be understood.
         </p>
         <p>
-          The picture that emerges is not a ranking. No culture has solved the problem of being alive,
-          and no culture has wholly failed at it. Each has refined certain tools and let others
-          atrophy. The British have understatement but limited communal practice. The Greeks have{' '}
-          <em>παρέα</em> but louder volume. The Russians have depth without lightness. The Americans
-          have comic genius and emotional disorder. The Japanese have aesthetic distance but
-          constrained Levity. The Latin Americans have magical attention but variable Mastery in the
-          European sense. The Africans have communal joy but operate under historical loads the
-          Northern cultures have mostly forgotten.
+          <strong>Zhuangzi.</strong> The Daoist who dreamed he was a butterfly and could not afterwards
+          be sure which of them was dreaming. His passages are comic and philosophical at once, and
+          any Wayfarist would recognise them. Beside the Confucian tradition of composed endurance,
+          he is the reminder that composure and laughter were never opposed.
         </p>
         <p>
-          The Wayfarer's advantage, if there is one, is the freedom to borrow. There is no requirement
-          to honour only the tradition you were born into. The understatement of Pooter and the{' '}
-          <em>kefi</em> of a Greek table and the <em>ofrenda</em> of a Mexican household and the{' '}
-          <em>anekdoty</em> of a Soviet kitchen all do the same work in different registers. They are
-          local solutions to a universal problem, and they are available, in principle, to anyone who
-          has read enough or travelled enough or thought enough about how the weight is carried
-          elsewhere.
+          Russia and China are not places without Levity. They are places where Levity went
+          underground — into the <em>anekdot</em> told in the kitchen, into Zhuangzi, into Lu
+          Xun&apos;s bitter line. They are instructions in what Levity looks like when the joke
+          cannot be said aloud. The Russian passing an <em>anekdot</em> across the kitchen table in
+          the long winter is doing exactly what the Englishman does with a dry line at the broken
+          kettle.
         </p>
         <p>
-          The two cultures that least resemble the wayfarist disposition — Russia and China — are not
-          failures of the framework. They are instructions in what remains when Levity is unavailable,
-          which is something everyone occasionally needs to know. The Russian who walks through the
-          long winter without a joke is not less of a wayfarer than the Englishman dropping a dry
-          line at the broken kettle. He is the same wayfarer working under different conditions.
-          Sometimes the road requires depth. Sometimes it requires the dry remark. The wisdom is in
-          knowing which, and the freedom is in being able to draw from all of it.
+          The Wayfarer&apos;s advantage, if there is one, is the freedom to borrow. There is no
+          requirement to honour only the tradition you were born into. The understatement of Pooter
+          and the <em>kefi</em> of a Greek table and the <em>ofrenda</em> of a Mexican household and
+          the <em>anekdoty</em> of a Soviet kitchen all do the same work in different registers. They
+          are local solutions to a universal problem, and they are available, in principle, to anyone
+          who has read enough or travelled enough or thought enough about how the weight is carried
+          elsewhere. Sometimes the road requires depth. Sometimes it requires the dry remark. The
+          wisdom is in knowing which, and the freedom is in being able to draw from all of it.
         </p>
         <blockquote className="pull-quote text-xl">
           The road is one road. It crosses many countries. The methods are local. The walking is not.
@@ -640,7 +646,7 @@ const posts: Record<string, {
           road is fully available, and Wayfarism — which has tried throughout to honour the chosen
           character of every bearing — has nothing to say against it in the abstract. But what follows
           is for the people who have walked, or are considering walking, into the family commitments.
-          The post is not an argument that you must. It is an account of what you are doing, if you do.
+          The post does not argue that you must. It gives an account of what you are doing, if you do.
         </p>
         <p>
           Begin with the marriage, because the marriage is the older commitment in most family
@@ -714,18 +720,19 @@ const posts: Record<string, {
           not the sole architect of your child's destiny. You are not even the primary one in many
           respects. You are a major influence, alongside genetics, peers, culture, accident, and the
           child's own emerging self, which will exercise its own bearing whether you approve of the
-          bearing or not. Holding this lightly is not negligence. It is the only sustainable posture.
+          bearing or not. Holding this lightly is the only sustainable posture, and should not be mistaken for negligence.
           The grim parent, perpetually responsible for everything, is no use to the child and no use
           to the marriage. The Wayfarer keeps showing up, does the work of the day, transmits what
           they have to transmit, and accepts that the rest is not entirely theirs to control.
         </p>
         <p>
-          There is a particular trap in family life that Wayfarism has to name explicitly, because it
+          Family is a bearing — for many people the main one. What it should not be is the only
+          one. There is a particular trap in family life that Wayfarism has to name explicitly, because it
           is widely admired and quietly destructive: the collapsing of the chosen cause into the
           family. The person who declares that their children are their purpose has, in one sense,
           said something beautiful. In another sense they have said something that will not survive
           the children growing up, which the children will. The chosen cause is defined in the
-          philosophy as a direction larger than personal competence or family — and this is not a
+          philosophy as a direction that reaches beyond your own household — and this is not a
           coldness toward family but a protection of it. A family that is asked to be a chosen cause
           is being asked to bear weight it was not built for. The children will eventually leave, the
           spouse will not be every part of you forever, and the person who has nothing else will
@@ -740,7 +747,7 @@ const posts: Record<string, {
           lives that do not include children, and Transmission, as the philosophy has tried to
           articulate, has many forms. A teacher transmits. A craftsperson transmits. A writer
           transmits. A community-keeper transmits. None of these require the family commitments. But
-          the move identified in the previous Road Notes deserves to be flagged here too: the
+          one trap deserves naming here: the
           laundering of "not yet" into a permanent condition with a temporary name. If you have been
           "not ready" for fifteen years, the readiness is not arriving. Either decide honestly that
           this is not your road and walk another, or decide honestly that it is and begin walking.
@@ -756,9 +763,8 @@ const posts: Record<string, {
           not infinite. The day is the unit. The chain continues, and you are a link in it, and the
           link is enough.
         </p>
-        <p className="italic text-[var(--color-muted)]">The road continues. We go again tomorrow.</p>
         <blockquote className="pull-quote text-xl">
-          Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.
+          Hold family and a road beyond family. Not either. Both.
         </blockquote>
       </>
     ),
@@ -767,7 +773,7 @@ const posts: Record<string, {
   'concerning-alice': {
     title: 'Concerning Alice',
     date: '8 May 2026',
-    subtitle: 'A commentary on one particular life built around the discovery model of the self — what Alice has genuinely noticed, and what the sensibility she has built from it quietly leaves out.',
+    subtitle: 'A commentary on a composite life built around the discovery model of the self — what Alice has genuinely noticed, and what the sensibility she has built from it quietly leaves out.',
     content: (
       <>
         <p>
@@ -775,9 +781,9 @@ const posts: Record<string, {
           the view that beneath conditioning and noise there exists a real you, accessible by
           subtraction, knowable by quieting, and reliably indicated by what feels good. The case is
           more vivid when one looks at a particular life articulating it. What follows is a commentary
-          on a specific summary of one such life — anonymised, condensed from a longer record of
-          evolving reflections, and presented here under the codename Alice. The point is not to
-          dismiss her. Alice is articulate, observant, and sincere. She is also wrong about several
+          on one such life. Alice is a composite, not a real person: her positions are assembled from
+          the way this sensibility is commonly articulated, and no individual is being described. The
+          point is not to dismiss her. Alice is articulate, observant, and sincere. She is also wrong about several
           things, in ways that are worth being precise about, because her errors are the errors of a
           whole sensibility.
         </p>
@@ -796,8 +802,7 @@ const posts: Record<string, {
         <p>
           These are not minor concessions. A serious critique of a sensibility has to begin by
           acknowledging what the sensibility has actually got hold of. Alice has got hold of several
-          real things. The objection is not to what she has noticed. It is to what she has built on
-          top of what she has noticed.
+          real things. The objection is to what she has built on top of what she has noticed.
         </p>
         <p>
           Begin with the opening metaphor, which is more revealing than it intends to be. Life is a
@@ -830,22 +835,19 @@ const posts: Record<string, {
           articulation is purer than the generic case, which makes it useful to examine. The image is
           of layers falling away — the implicit promise being that what remains, when the layers are
           gone, is what was always there. This is the marble in another costume. There is no marble.
-          The layers were not concealing a self; the layers were structurally part of the self. To
-          remove them is not to reveal anything. It is to erode. The Wayfarer's objection here is not
+          The layers were not concealing a self; the layers were structurally part of the self. To remove them reveals nothing; it erodes. The Wayfarer's objection here is not
           aesthetic but architectural. A self is built up, not unburied. To spend a life unravelling
           is to spend a life undoing the work of being a person, in the belief that the undoing is a
-          kind of arrival. It is not an arrival. It is an evacuation, performed slowly, congratulated
-          as wisdom.
+          kind of arrival. It is an evacuation, performed slowly, congratulated as wisdom.
         </p>
         <p>
           The love loop — "I love you so I can love myself; I love myself so I can love you, an
           infinite machine if you let it run" — is presented as a kind of perpetual motion. It is.
           That is its problem. A perpetual motion machine is closed; it has no input from outside the
-          system, no friction with the world, no direction. Love that recirculates between two parties
-          is a circuit, not a road. Wayfarism is not opposed to love — Transmission is partly love,
-          and a chosen cause is often loved. But Transmission has a vector: outward, downstream, to
-          the next person who will receive what you are passing on. The love loop transmits only to
-          itself. It does not point anywhere. As a description of warmth between two people it is
+          system, no friction with the world, no direction. Wayfarism is not opposed to love. Love is a
+          bearing, and for many people the main one. The objection is to the closed loop: love whose
+          only product is more of the feeling. Fidelity past fascination, care that costs something,
+          a friend kept through a bad year — these have a vector. The loop, as described, has none. As a description of warmth between two people it is
           accurate. As a model of how love produces a life that goes somewhere, it is not.
         </p>
         <p>
@@ -868,8 +870,8 @@ const posts: Record<string, {
           cognitively. To follow only that is to never submit to the long unglamorous middle of any
           craft, in which the work has stopped being fascinating and has not yet become rewarding.
           Mastery requires fidelity past the fascination. The pattern in which one studies one thing,
-          gets bored, studies another, gets bored, ends up "unemployed" in conventional terms is not
-          curiosity in the structural sense. It is the inability to stay with anything. Wayfarism
+          gets bored, studies another, gets bored, ends up "unemployed" in conventional terms only resembles curiosity. In the structural
+          sense it is the inability to stay with anything. Wayfarism
           would not require Alice to take a conventional job. It would ask whether there is any work
           she has stayed with through the unrewarding middle, and whether the answer is honest.
         </p>
@@ -892,9 +894,8 @@ const posts: Record<string, {
           something to transmit? If the answers are unclear, the summary describes a sensibility, not
           a bearing. The sensibility is pleasant. It is not enough.
         </p>
-        <p className="italic text-[var(--color-muted)]">The road continues. We go again tomorrow.</p>
         <blockquote className="pull-quote text-xl">
-          Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.
+          What have you chosen, that you would still walk toward if it stopped feeling good?
         </blockquote>
       </>
     ),
@@ -938,8 +939,7 @@ const posts: Record<string, {
           Christian apophatic mystics, who could only describe God by what God was not, and through
           Meister Eckhart's commendation of detachment as the highest virtue. It runs through
           Heidegger's authenticity, the project of clearing away the chatter of <em>das Man</em> to
-          recover one's ownmost being. The hedonic route runs through Bentham and the utilitarian
-          calculus, through Maslow's hierarchy and its capstone of self-actualisation, through Rogers
+          recover one's ownmost being. The hedonic route runs through Maslow's hierarchy and its capstone of self-actualisation, through Rogers
           and the humanistic project of the fully functioning person, and arrives in the contemporary
           moment as something simpler and more marketable — Tolle's stillness, Kondo's spark of joy,
           the wellness aphorism that whatever does not serve you should be released.
@@ -954,8 +954,7 @@ const posts: Record<string, {
         <p>
           The dispute is this. There is no marble. There is no self underneath. The metaphor has
           smuggled in a metaphysics — a friendly determinism, in which the universe has provided you
-          with a natural resting place that mere physics, undisturbed, will deliver you to. This is
-          not a finding. It is a wish. The actual situation is that there is no surface with a
+          with a natural resting place that mere physics, undisturbed, will deliver you to. This is a wish dressed as a finding. The actual situation is that there is no surface with a
           particular slope, no natural angle of repose, no place the self wants to land if only you
           would stop interfering. The self is not a marble. It is a person walking. Where it ends up
           is wherever it has been walked.
@@ -974,16 +973,17 @@ const posts: Record<string, {
           thing whose qualities can be inspected. You are the cumulative result of what you have done,
           what you have committed to, what you have built and unbuilt. There is no person standing
           behind these acts who is the real you, watching the surface activity from some inner balcony.
-          The acts are the person. The walking is the wayfarer.
+          The acts are the person. The walking is the Wayfarer.
         </p>
         <p>
           The hedonic principle fails for the same reason, and fails harder. If the felt pull toward
           this and the felt aversion to that were reliable indicators, depression would be
-          self-correcting and addiction would not exist. They are not, and it is, and it does. The
+          self-correcting and addiction would not exist. Depression is not self-correcting, and
+          addiction exists. The
           signal is corrupted by the condition. The depressed person who follows the principle of
           less-of-what-feels-bad will withdraw from everything, because everything feels bad; the
           principle of more-of-what-feels-good will, in that condition, lead to whatever is most
-          numbing. This is not a defect of the depressed person. It is a defect of the principle. The
+          numbing. The defect lies in the principle, and not in the depressed person. The
           principle was wrong before it met the difficult case. The difficult case merely exposes it.
         </p>
         <p>
@@ -1001,8 +1001,8 @@ const posts: Record<string, {
           appropriate practice is removal, and the appropriate timeline is however long it takes to
           uncover what is supposedly already there. This can take a very long time. It can, in some
           cases, take a life. The Wayfarer's objection is not that the practice is unpleasant — it
-          is that the practice is mistaken. There is nothing underneath. The marble is not waiting to
-          be released. The marble is being constructed, day by day, out of what you do.
+          is that the practice is mistaken. There is nothing underneath. There is no marble waiting to
+          be released. There is a person walking, being made by the walk.
         </p>
         <p>
           The honest position is therefore the harder one. You will not find yourself by removing the
@@ -1021,9 +1021,8 @@ const posts: Record<string, {
           delivered to yourself. You are making yourself, one day's walk at a time, and the self that
           results is whatever you have walked toward.
         </p>
-        <p className="italic text-[var(--color-muted)]">The road continues. We go again tomorrow.</p>
         <blockquote className="pull-quote text-xl">
-          Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.
+          There is no marble. The self is not found. It is built.
         </blockquote>
       </>
     ),
@@ -1047,8 +1046,7 @@ const posts: Record<string, {
           The instinct, when facing this aggregate, is to try to solve it. To figure out how to bear
           all of it. To work out some strategy for managing the whole thing at once. This instinct is
           understandable and almost always counterproductive, because the question "how do I bear all
-          of this" has no good answer. All of it cannot be borne simultaneously. That is not a
-          question of strength or willpower or the right system. It is a question of physics. The
+          of this" has no good answer. All of it cannot be borne simultaneously. That is a question of physics, and no strength or willpower or system changes it. The
           full weight is too heavy for a human being to hold while also moving.
         </p>
         <p>
@@ -1076,8 +1074,7 @@ const posts: Record<string, {
           heavy is a genuine achievement. It does not feel like one, because we have learned to
           measure achievement in terms of progress toward distant goals — to ask not whether we got
           through today but whether today moved us forward. This is the wrong measure when the weight
-          is this heavy. The measure is simply: did we get through today. If yes, that is enough. It
-          is not a lesser version of something. It is the thing itself.
+          is this heavy. The measure is simply: did we get through today. If yes, that is enough. It is the thing itself, and no lesser version of anything.
         </p>
         <p>
           The resolve required — and this is the point — is exactly one day's worth. No more. Not the
@@ -1088,34 +1085,33 @@ const posts: Record<string, {
         </p>
         <p>
           The reason the daily unit works is not only psychological but physiological. Each day
-          arrives with a fixed and finite supply of attention, will, and energy. This is not a figure
-          of speech — the evidence on decision fatigue, cognitive depletion, and the limits of
-          sustained concentration all point to the same conclusion: the human animal has a daily
-          budget, and it does not carry over. Spend it worrying about next week's problems and it is
+          arrives with a limited supply of attention and energy. The laboratory evidence for a strict
+          daily budget is contested — the depletion studies have not replicated cleanly — but nobody
+          who has tried to make a serious decision at eleven at night needs a study. Spend it worrying about next week's problems and it is
           unavailable for today's. The budget is the same either way. Only what you purchase with it
           differs.
         </p>
         <p>
           Marcus Aurelius, who ran an empire while conducting a war and writing philosophy in a tent,
           understood this with some precision. "Do not disturb yourself by thinking of the whole of
-          your life," he wrote in the Meditations. "Let not your thoughts range over the many troubles
+          your life," he wrote in the <em>Meditations</em> (8.36). "Let not your thoughts range over the many troubles
           which have come in the past and may come in the future, but ask yourself with regard to
           every present difficulty: what is there in this that is intolerable and beyond endurance?"
           Not: how do I solve everything. What is in front of me now. The question is local. The
           answer is local. The energy is spent here, on this, today.
         </p>
         <p>
-          William James, writing on what he called the energies of men, observed that most people
+          William James, in his essay &ldquo;The Energies of Men&rdquo;, observed that most people
           operate far below their actual capacity — not from lack of ability but from dissipation.
           "Compared with what we ought to be," he wrote, "we are only half awake. Our fires are
           damped, our drafts are checked. We are making use of only a small part of our possible
           mental and physical resources." The energy that could go into action goes instead into
           anticipation — into anxiety, into the rehearsal of difficulties that have not yet arrived.
-          The practice of confining expenditure to the day's actual requirements is not a narrowing.
-          It is a recovery of what was always there but had been lost to the future.
+          Confining expenditure to the day's actual requirements narrows nothing. It recovers what
+          was always there but had been lost to the future.
         </p>
         <p>
-          Seneca, writing two thousand years ago, put it most plainly: <em>vindica te tibi</em> —
+          Seneca, in the first of his <em>Letters</em>, put it most plainly: <em>vindica te tibi</em> —
           claim yourself for yourself. Everything else belongs to others: other people's demands,
           fortune's disruptions, the past's regrets and the future's uncertainties. Time alone is
           yours. And the day is the unit of time you actually have.
@@ -1133,14 +1129,13 @@ const posts: Record<string, {
           There is a kind of dignity in this that the more ambitious framings miss. The person who
           reduces the question to one day is not giving up on the larger life. They are making the
           larger life possible by refusing to let its full weight crush the present moment. They are
-          being precise about what is actually required of them right now. The heroism, if there is
-          any, is not in the scope of the vision. It is in the refusal to be defeated by today.
+          being precise about what is actually required of them right now. The heroism, if there is any, lies in the refusal to be defeated by today.
         </p>
-        <p className="italic text-[var(--color-muted)]">
-          Get through today. That is the task. That is enough.
+        <p>
+          If today is one you cannot get through alone, getting through it includes telling someone.
         </p>
         <blockquote className="pull-quote text-xl">
-          Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.
+          Get through today. That is the task. That is enough.
         </blockquote>
       </>
     ),
@@ -1162,7 +1157,7 @@ const posts: Record<string, {
           Standard advice fails here, not because the advisors are wrong in general but because they
           are addressing a different situation. "Just do something" presupposes that doing is
           available. "Find your motivation" presupposes that motivation is a resource you can locate
-          and retrieve. When you are in the hole, your boots are in a locked room. The instruction
+          and retrieve. When you are in the hole, the condition has hidden your boots. The instruction
           to pull yourself up by them is not unhelpful — it is simply addressed to someone else.
         </p>
         <p>
@@ -1172,7 +1167,7 @@ const posts: Record<string, {
           move. The dog needs feeding. The door is broken. There are dishes.
         </p>
         <p>
-          What the behavioural evidence consistently shows, and what anyone who has been in the hole
+          What the evidence on behavioural activation consistently shows, and what anyone who has been in the hole
           and climbed out of it knows from experience, is that action and motivation do not proceed
           in the order we assume. We assume the sequence is: feel motivated, then act. The actual
           sequence, when the first version fails, is: act, and sometimes the feeling follows. Or it
@@ -1195,7 +1190,13 @@ const posts: Record<string, {
           The dog will not accept postponement.
         </p>
         <p>
-          None of this solves the underlying problem. Motion is not a cure; it is a floor. It keeps
+          All of this assumes a dog. If you have none, get one while you can still stand — an
+          animal, a rota, a promise to a particular person. If you are already down, borrow one: make
+          an appointment with someone whose job is to expect you.
+        </p>
+        <p>
+          None of this solves the underlying problem. Motion is not a cure; it is a floor. If the
+          floor itself is giving way, the first motion is to tell someone. It keeps
           you functional while the other conditions are unavailable. It is the minimum necessary, and
           it is genuinely the minimum — there is no pretence here that feeding the dog constitutes a
           philosophy of the good life.
@@ -1207,9 +1208,8 @@ const posts: Record<string, {
           to stand on. The rest can come later. Or it cannot, and you stand on the floor again
           tomorrow. That is also acceptable.
         </p>
-        <p className="italic text-[var(--color-muted)]">The road continues. We go again tomorrow.</p>
         <blockquote className="pull-quote text-xl">
-          Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.
+          The floor is not nothing. The floor is what stands between you and the absence of floor.
         </blockquote>
       </>
     ),

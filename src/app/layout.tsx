@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Wayfarism',
-  description: 'A complete philosophy of motion and bearing. The universe offers no directions. The Wayfarer brings their own.',
+  description: 'A working philosophy of motion and bearing. The universe offers no directions. The Wayfarer brings their own.',
   icons: {
     icon: '/favicon-32.png',
     apple: '/apple-touch-icon.png',

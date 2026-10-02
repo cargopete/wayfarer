@@ -1,3 +1,9 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  description: 'Lines worth carrying, and the Wayfarist maxims.',
+};
+
 const quotes = [
   // On motion and continuation
   {
@@ -5,25 +11,21 @@ const quotes = [
     author: 'Robert Frost',
   },
   {
-    text: 'It does not matter how slowly you go as long as you do not stop.',
-    author: 'Confucius',
+    text: 'If you\'re going through hell, keep going.',
+    author: 'Anonymous (often credited to Churchill)',
   },
   {
-    text: 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.',
-    author: 'Thomas Edison',
+    text: 'Do not disturb yourself by thinking of the whole of your life.',
+    author: 'Marcus Aurelius, Meditations 8.36',
+  },
+  {
+    text: 'Vindica te tibi. Claim yourself for yourself.',
+    author: 'Seneca, Letters 1',
   },
   // On direction and choice
   {
-    text: 'Do not go where the path may lead, go instead where there is no path and leave a trail.',
-    author: 'Ralph Waldo Emerson',
-  },
-  {
-    text: 'If you\'re going through hell, keep going.',
-    author: 'Winston Churchill',
-  },
-  {
     text: 'Waste no more time arguing about what a good man should be. Be one.',
-    author: 'Marcus Aurelius',
+    author: 'Marcus Aurelius, Meditations 10.16',
   },
   // On transmission and legacy
   {
@@ -31,17 +33,21 @@ const quotes = [
     author: 'Carl W. Buehner',
   },
   {
-    text: 'We do not inherit the earth from our ancestors; we borrow it from our children.',
-    author: 'Native American Proverb',
+    text: 'If having a soul means being able to feel love and loyalty and gratitude, then animals are better off than a lot of humans.',
+    author: 'James Herriot',
   },
   // On levity and endurance
   {
     text: 'I like work: it fascinates me. I can sit and look at it for hours.',
-    author: 'Jerome K. Jerome',
+    author: 'Jerome K. Jerome, Three Men in a Boat',
+  },
+    {
+    text: 'Am never much exhilarated at this prospect, and do not in the least find that it becomes less unpleasant with repetition, but rather the contrary.',
+    author: 'E.M. Delafield, Diary of a Provincial Lady, on asking the Bank for an overdraft',
   },
   {
     text: 'Life is what happens to you while you\'re busy making other plans.',
-    author: 'John Lennon',
+    author: 'Allen Saunders, 1957; later sung by John Lennon',
   },
   // Wayfarist
   {
@@ -51,9 +57,15 @@ const quotes = [
 ];
 
 const maxims = [
-  'Motion is the mechanism.',
-  'Bearing is the meaning.',
-  'Levity is what makes both sustainable.',
+  'The universe offers no directions. The Wayfarer brings their own.',
+  'The fixed point is where we put it.',
+  'The dog does not care about your depression.',
+  'Feed the dog. Fix the door.',
+  'Pick your stupid battle. Fight it anyway.',
+  'Understatement is not denial. It is a form of dignity.',
+  "You are not the draft's tenant. You are its editor.",
+  'Get through today. That is the task.',
+  'Motion is the mechanism. Bearing is the meaning. Levity is what makes both sustainable.',
 ];
 
 export default function QuotesPage() {
@@ -75,9 +87,9 @@ export default function QuotesPage() {
         ))}
       </div>
 
-      {/* The three maxims as a triptych */}
+      {/* The Wayfarist maxims */}
       <div className="border-t border-[var(--color-border)] pt-16">
-        <div className="grid md:grid-cols-3 gap-8 text-center">
+        <div className="grid md:grid-cols-3 gap-x-8 gap-y-12 text-center">
           {maxims.map((maxim, index) => (
             <p key={index} className="text-xl italic text-[var(--color-muted)]">
               {maxim}

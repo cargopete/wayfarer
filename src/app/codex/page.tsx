@@ -1,43 +1,64 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  description: 'The terms of Wayfarism, defined. Short and clear.',
+};
+
 const definitions = [
   {
     term: 'Wayfarism',
     category: 'The philosophy',
-    definition: 'A complete philosophy of motion and direction, built in two levels. It accepts the silence of the universe and responds with a practical question: given that, what do we do? The answer: keep moving, choose a direction, hold it all with enough lightness that it does not crush you.',
+    definition: 'A working philosophy of motion and bearing, built in two levels and held together by Levity. It accepts the silence of the universe and responds with a practical question: given that, what do we do? The answer: keep moving, choose a direction, hold it all with enough lightness that it does not crush you.',
   },
   {
     term: 'Wayfarer',
     category: 'The practitioner',
-    definition: 'One who travels the road. Not a pilgrim, which implies a destination and a faith. Not a wanderer, which implies no direction. A Wayfarer is someone on a road — going somewhere, not always certain where, but going. The word is Old English: weg (road) and faran (to travel, to get along, to fare). The Wayfarer is anyone still walking.',
+    definition: 'One who travels the road. Not a pilgrim, which implies a destination and a faith. Not a wanderer, which implies no direction. A Wayfarer is someone on a road — going somewhere, not always certain where, but going. The word is built from Old English roots: weg (road) and faran (to travel, to get along, to fare). The Wayfarer is anyone still walking.',
   },
   {
     term: 'Motion',
     category: 'The first level',
-    definition: 'The floor. The principle that action precedes motivation — that you do not need to feel ready in order to move. Motion asks nothing philosophical. It requires only continuation: concrete work, external demands, accumulated small results. It keeps you alive until Bearing becomes possible again. It is not a destination. It is a floor.',
+    definition: 'The floor. The principle that action precedes motivation — that you do not need to feel ready in order to move. Motion asks nothing philosophical. It requires only continuation: concrete work, external demands, accumulated small results. It keeps you going until Bearing becomes possible again. It is not a cure, and not a substitute for help. It is not a destination. It is a floor.',
   },
   {
     term: 'Bearing',
     category: 'The second level',
-    definition: 'The orientation. A navigational term: direction of travel relative to a fixed point. In Wayfarism, Bearing is the answer to the question Motion does not ask — not just how to keep going, but where. Bearing is chosen, not given. It is held loosely enough to be revised, seriously enough to be enacted, and lightly enough to be sustained.',
+    definition: 'The orientation. A navigational term: direction of travel relative to a fixed point. The fixed point is where we put it. In Wayfarism, Bearing is the answer to the question Motion does not ask — not just how to keep going, but where. Bearing is chosen, not given. It can be a craft, a cause, a person or a household. It is held loosely enough to be revised, seriously enough to be enacted, and lightly enough to be sustained.',
+  },
+  {
+    term: 'Fixed Point',
+    category: 'What a Bearing is measured from',
+    definition: 'A bearing is a direction relative to a fixed point. The universe supplies none, so the Wayfarer sets one. The fixed point is where we put it.',
   },
   {
     term: 'Mastery',
     category: 'The first pillar',
-    definition: 'A craft or skill pursued with genuine attention. The work talks back — it has its own standards, its own resistance. Competence accumulated over a life is something the universe cannot revoke.',
+    definition: 'A craft or skill pursued with genuine attention. The work talks back — it has its own standards, its own resistance. Competence accumulated over a life is not revoked by your opinion of yourself.',
   },
   {
     term: 'Transmission',
     category: 'The second pillar',
-    definition: 'The deliberate act of passing something on. You received something — a language, a way of seeing, a quality of attention. The chain matters not because it is eternal but because you are a link in it.',
+    definition: 'The deliberate act of passing something on. You received something — a language, a way of seeing, a quality of attention. Down the chain or across it: teaching, raising and apprenticing, and also carrying, tending and keeping company. The chain matters not because it is eternal but because you are a link in it.',
   },
   {
     term: 'Chosen Cause',
     category: 'The third pillar',
-    definition: 'A direction larger than personal competence or family. Chosen with open eyes, committed to without illusion, fought for knowing it may not be won. The cause is arbitrary in the cosmic sense. This is not a weakness. It is its integrity.',
+    definition: 'A direction that reaches beyond your own household — not instead of family, but alongside it. Chosen with open eyes, committed to without illusion, fought for knowing it may not be won. The cause is unsanctioned: nothing in the universe endorses it. This is not a weakness. It is its integrity.',
   },
   {
     term: 'Levity',
     category: 'The fourth pillar',
-    definition: 'Seriousness held lightly. The capacity to notice that the gap between how things ought to go and how they actually go is not only a source of suffering but a source of comedy. Levity keeps the other pillars honest. Understatement is not denial. It is a form of dignity.',
+    definition: 'Seriousness held lightly. The capacity to notice that the gap between how things ought to go and how they actually go is not only a source of suffering but a source of comedy. The one pillar that reaches down to the floor: it can be carried into Motion when nothing else can. Not the same as joking — it is the refusal to grant suffering the size it asked for. Understatement is not denial. It is a form of dignity.',
+  },
+  {
+    term: 'The Three Tests',
+    category: 'What makes a Bearing',
+    definition: 'A Bearing points beyond the self, holds when it stops feeling good, and stays open to revision. These are tests of structure, not of virtue. Wayfarism does not rank roads; it says what a road is.',
+  },
+  {
+    term: 'The Boundary',
+    category: 'The one line',
+    definition: "You may not take another person's road from them by force, threat or fraud. Not derived from the universe; placed, like every other fixed point.",
   },
   {
     term: 'The Bootstrapping Problem',
@@ -50,9 +71,44 @@ const definitions = [
     definition: 'The minimum. The thing that keeps you functional when everything internal has failed. Not a destination, not a goal, not a philosophy of the good life — simply the ground beneath your feet when the ground is all there is.',
   },
   {
+    term: 'External Demand',
+    category: 'The dog',
+    definition: 'A claim made on you by something outside yourself: an animal, a person, a commitment, a deadline. It does not consult your mood, which is its entire value. If you have none, acquire one while you can still stand.',
+  },
+  {
+    term: 'Concrete Work',
+    category: 'The fixed door',
+    definition: 'Work with a visible result. The door was broken; now it works. The result is a fact that a low mood cannot reinterpret.',
+  },
+  {
+    term: 'The Day',
+    category: 'The unit',
+    definition: "The amount of life that can actually be carried. The whole weight cannot be held at once; today's portion can. Tomorrow's resolve is not required yet.",
+  },
+  {
+    term: 'The Built Self',
+    category: 'There is no marble',
+    definition: 'There is no finished self underneath, waiting to be uncovered by subtraction. The self is made by what you do and commit to. The walking is the Wayfarer.',
+  },
+  {
+    term: 'The Editor',
+    category: 'Revision',
+    definition: 'The bearing is not chosen once. It is chosen again, with corrections. You are not the tenant of a life drafted in your youth. You are its editor, and the editor outranks the draft.',
+  },
+  {
     term: 'The Absurd',
     category: 'The founding condition',
-    definition: "Albert Camus's term for the collision between human beings' demand for meaning and the universe's silence. Not a property of the world alone, nor of the mind alone, but of the confrontation between the two. Wayfarism accepts the Absurd entirely and builds from it.",
+    definition: "Albert Camus's term for the collision between human beings' demand for meaning and the universe's silence. Not a property of the world alone, nor of the mind alone, but of the confrontation between the two. Wayfarism takes the Absurd as its working condition: whatever the universe may or may not be, it has handed us no directions, and we build from that.",
+  },
+  {
+    term: 'Philosophical Suicide',
+    category: "Camus's term",
+    definition: 'Escaping the Absurd by leaping into a belief that explains the silence away. A Chosen Cause differs in one respect: it claims no cosmic sanction.',
+  },
+  {
+    term: 'Revolt',
+    category: "Camus's answer",
+    definition: 'Living consciously inside the contradiction, neither resolving it nor giving in to it. Wayfarism begins where revolt needs a method.',
   },
 ];
 

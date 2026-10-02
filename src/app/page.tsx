@@ -17,6 +17,11 @@ const navTiles = [
     title: 'The Codex',
     description: 'Definitions. Short and clear.',
   },
+  {
+    href: '/blog',
+    title: 'The Road Notes',
+    description: 'The philosophy at work on particular problems.',
+  },
 ];
 
 export default function Home() {
@@ -43,13 +48,14 @@ export default function Home() {
             It accepts the silence of the universe without despair, and responds with a practical
             question: given that, what do we do? The answer is in two levels — Motion, which keeps
             you going when everything internal has failed, and Bearing, which tells you which way
-            to face when you can stand upright. No cosmic sanction. No predetermined destination.
+            to face when you can stand upright — and one habit that holds both together: Levity,
+            the refusal to carry any of it more heavily than it needs. No cosmic sanction. No predetermined destination.
             Just a road, a lantern, and the decision to walk.
           </p>
         </div>
 
         {/* Navigation tiles */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {navTiles.map((tile) => (
             <Link
               key={tile.href}

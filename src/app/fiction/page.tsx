@@ -1,4 +1,9 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  description: 'Twelve who walk the road, and one who lost it.',
+};
 
 const literaryWayfarers = [
   {
@@ -17,7 +22,19 @@ const literaryWayfarers = [
     slug: 'james-herriot',
     name: 'James Herriot',
     source: 'All Creatures Great and Small',
-    summary: 'The complete Wayfarer. All four pillars, across a whole life.',
+        summary: 'The complete Wayfarer. All four pillars, across a whole life.',
+  },
+  {
+    slug: 'aubrey-maturin',
+    name: 'Aubrey & Maturin',
+    source: "Patrick O'Brian",
+    summary: 'A friendship as a bearing.',
+  },
+  {
+    slug: 'dr-rieux',
+    name: 'Dr Bernard Rieux',
+    source: 'The Plague',
+    summary: 'The cause that cannot be won, worked at daily.',
   },
 ];
 
@@ -26,7 +43,7 @@ const modernWayfarers = [
     slug: 'juliette',
     name: 'Juliette',
     source: 'Silo',
-    summary: 'Motion as vocation, truth as bearing.',
+    summary: 'Mastery as vocation, truth as bearing.',
   },
   {
     slug: 'mark',
@@ -38,7 +55,7 @@ const modernWayfarers = [
     slug: 'jeremy-clarkson',
     name: 'Jeremy Clarkson',
     source: "Clarkson's Farm",
-    summary: 'Wayfarism arrived uninvited — and was accepted anyway.',
+    summary: 'Wayfarism arrived uninvited, and he stayed.',
   },
   {
     slug: 'ted-lasso',
@@ -56,13 +73,19 @@ const modernWayfarers = [
     slug: 'sam-gamgee',
     name: 'Samwise Gamgee',
     source: 'The Lord of the Rings',
-    summary: 'The purest Wayfarer in all of fiction.',
+    summary: 'The Wayfarer with nothing but the road.',
+  },
+    {
+    slug: 'morrie-schwartz',
+    name: 'Morrie Schwartz',
+    source: 'Tuesdays with Morrie',
+    summary: 'What remains when you can no longer do.',
   },
   {
     slug: 'jimmy-mcgill',
     name: 'Jimmy McGill',
     source: 'Better Call Saul',
-    summary: 'A Wayfarer who chose the wrong bearing.',
+    summary: 'All the materials, and no bearing.',
   },
 ];
 
@@ -98,7 +121,9 @@ export default function FictionPage() {
           characterised by endurance held lightly — and a set of modern examples that arrived at
           the same territory independently, through story rather than argument. Both are useful.
           They show what the philosophy looks like when lived rather than theorised: imperfectly,
-          under pressure, sometimes triumphantly, sometimes as a warning.
+          under pressure, sometimes triumphantly, sometimes as a warning. Not all of it is fiction
+          in the strict sense: Herriot is memoir lightly disguised, <em>Tuesdays with Morrie</em> is memoir
+          outright, and <em>Clarkson&apos;s Farm</em> is a documentary. They are here because they are stories.
         </p>
       </div>
 
@@ -128,6 +153,11 @@ export default function FictionPage() {
       <div className="text-center border-t border-[var(--color-border)] pt-12">
         <p className="text-[var(--color-muted)] italic">
           Know a character who belongs here? The Wayfarer appears in more stories than we have named.
+          Write to{' '}
+          <a href="mailto:pavlovskipetko@gmail.com" className="text-[var(--color-lantern)] hover:underline not-italic">
+            pavlovskipetko@gmail.com
+          </a>
+          .
         </p>
       </div>
     </article>

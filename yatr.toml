@@ -1,0 +1,58 @@
+# yatr - https://github.com/cargopete/yatr
+#
+# The package.json scripts, plus typecheck and `ci`. Vercel builds and deploys;
+# nothing here ships.
+
+[toolchain.node]
+version = "26.11.1"
+url = "https://nodejs.org/dist/v{version}/node-v{version}-{os}-{arch}.tar.gz"
+bin = "node-v{version}-{os}-{arch}/bin"
+
+[env]
+NEXT_TELEMETRY_DISABLED = "1"
+
+[settings]
+cache = true
+
+# Not cached: node_modules is gitignored, so yatr cannot see whether it exists.
+[tasks.install]
+desc = "Install dependencies from the lockfile"
+run = ["npm install --no-audit --no-fund"]
+no_cache = true
+
+[tasks.lint]
+desc = "ESLint (next core-web-vitals + typescript)"
+depends = ["install"]
+run = ["npx eslint"]
+sources = ["src/**", "eslint.config.mjs", "package-lock.json"]
+
+[tasks.typecheck]
+desc = "Type-check without emitting"
+depends = ["install"]
+run = ["npx tsc --noEmit"]
+sources = ["src/**", "tsconfig.json", "package-lock.json"]
+
+[tasks.build]
+desc = "Production build into .next/"
+depends = ["install"]
+run = ["npx next build"]
+sources = ["src/**", "public/**", "next.config.ts", "postcss.config.mjs", "tsconfig.json", "package-lock.json"]
+outputs = [".next"]
+
+[tasks.dev]
+desc = "Next dev server on :3000"
+depends = ["install"]
+foreground = true
+run = ["npx next dev"]
+
+[tasks.start]
+desc = "Serve the production build"
+depends = ["build"]
+foreground = true
+run = ["npx next start"]
+
+# lint is left out until the 111 react/no-unescaped-entities errors on main are fixed.
+[tasks.ci]
+desc = "What must pass before a deploy: typecheck, build"
+depends = ["typecheck", "build"]
+run = []
